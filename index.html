@@ -11,15 +11,54 @@
 
 <body>
     <header>
-        Adventure quest 
+        Adventure quests in Downeast Maine 
     </header>
 
+    <main>
+        <h2>
+            Begin the adventure... 
+        </h2>
+            <form id="user-sign-up">
+                <p class="text-prompt">
+                    <label for="name">Name of character:</label>
+                    <input id="name" name="name" required>
+                </p>
+                    <fieldset>
+                        <legend>Pick Your Downeast Archetype:</legend>
+                        <p id="avatars">
+                            <label>
+                                <input type="radio" name="archetype" required value="burtDow">
+                                <img src="assets/avatars/burt-dow.jpg">
+                                Burt Down Deepwater Man
+                            </label>
+                            <label>
+                                <input type="radio" name="archetype" required value="sal">
+                                <img src="assets/avatars/sal.png">
+                                Sal from Blueberries for Sal
+                            </label>
+                            <label>
+                                <input type="radio" name="archetype" required value="rob">
+                                <img src="assets/avatars/rob.jpg">
+                                Rob McCloskey
+                            </label>
+                            <label>
+                                <input type="radio" name="archetype" required value="sailor">
+                                <img src="assets/avatars/sailor.jpg">
+                                Sailor of the Seas
+                            </label>
+                        </p>
+                    </fieldset>
+                <button>Start Adventure Quest</button>
+            </form>
+        
 
 
 
 
+    </main>
 
-    <script type="module" src="app.js"></script>
+
+    <script type="module" src="./home/home.js"></script>
 </body>
 
 </html>

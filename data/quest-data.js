@@ -5,6 +5,8 @@
 
 // sailing and caught a lobster buoy during the eggemoggin reach regatta--> dive under the boat and cut it off from your keel, phone call, radio the lobstermen
 
+// bear eats the honey 
+
 const hitDeer = {
     id: 'hit-deer', 
     title: 'Hit a deer during a Nor\'eastah', 
