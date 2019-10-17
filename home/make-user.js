@@ -14,8 +14,8 @@
 const makeUser = (formData) => ({
     name: formData.get('name'),
     archetype: formData.get('archetype'),
-    hp: 50,
-    gold: 0,
+    health: 50,
+    localRecognition: 0,
     completed: {}
 });
 
