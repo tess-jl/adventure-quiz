@@ -28,7 +28,7 @@ const hitDeer = {
         `, 
         hp: -20,
         gold: -40
-    } , {
+    }, {
         id: 'neighbors', 
         description: 'You look around for driveways or houses nearby. You see one small home with an f150 parked in the dooryard. It\'s only 6pm, so you walk over and knock on the door to check if the homeowner wants to eat the deer you just hit dinner',
         result: `
@@ -127,6 +127,6 @@ const caughtLobsterPot = {
     }]
 };
 
-const quests = [ hitDeer, strandedOnIsland, caughtLobsterPot ];
+const quests = [hitDeer, strandedOnIsland, caughtLobsterPot];
 
 export default quests; 
