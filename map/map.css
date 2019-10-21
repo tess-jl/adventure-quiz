@@ -10,7 +10,8 @@
 
 .quest {
     position: absolute;
-    color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px 1px black;
 }
 
@@ -22,3 +23,16 @@
 .quest.completed:after {
     content: ' done!';
 }
+
+h2 {
+    margin: 0;
+}
+
+.profile {
+    font-size: 0.5em; 
+}
+
+#avatar {
+    height: 80px;
+}
+

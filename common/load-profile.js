@@ -16,7 +16,7 @@ function loadProfile() {
     }
 
     name.textContent = userPresent.name; // cannot read property name of null 
-    avatar.src = '../assets/avatars/' + userPresent.archetype + '.png';
+    avatar.src = '../assets/avatars/' + userPresent.archetype + '.jpg';
     gold.textContent = userPresent.localRecognition;
 
     if (isDead(userPresent)) {

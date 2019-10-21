@@ -11,8 +11,8 @@ const hitDeer = {
     id: 'hit-deer', 
     title: 'Hit a deer during a Nor\'eastah', 
     map: {
-        top: '70%', 
-        left: '20%', 
+        top: '20%', 
+        left: '10%', 
     }, 
     image: 'noreaster.jpg',
     //audio? 
@@ -52,7 +52,7 @@ const strandedOnIsland = {
     title: 'straned on an island during a squall', 
     map: {
         top: '50%', 
-        left: '80%', 
+        left: '60%', 
     }, 
     image: 'kayak.jpg',
     //audio? 
