@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./home/home.css">
+    <link rel="stylesheet" href="./common/main.css">
+    <title>Adventure Quiz Lab</title>
+</head>
+
+<body>
+    <header>
+        <!-- <img id="backgorund-image" src="./assets/woodcut-chart.png"> -->
+        Adventure quests in Downeast Maine 
+    </header>
+
+    <main>
+        <h2>
+            Begin the adventure... 
+        </h2>
+            <form id="user-sign-up">
+                <p class="text-prompt">
+                    <label for="name">Name of character:</label>
+                    <input id="name" name="name" required>
+                </p>
+                    <fieldset>
+                        <legend>Pick Your Mainer:</legend>
+                        <p id="avatars">
+                            <label>
+                                <input type="radio" name="archetype" required value="burt-dow">
+                                <img class="avatar-pic" src="assets/avatars/burt-dow.jpg">
+                                Burt
+                            </label>
+                            <label>
+                                <input type="radio" name="archetype" required value="sal">
+                                <img class="avatar-pic" src="assets/avatars/sal.jpg">
+                                Sal
+                            </label>
+                            <label>
+                                <input type="radio" name="archetype" required value="rob">
+                                <img class="avatar-pic" src="assets/avatars/rob.jpg">
+                                Rob 
+                            </label>
+                            <label>
+                                <input type="radio" name="archetype" required value="sailor">
+                                <img class="avatar-pic" src="assets/avatars/sailor.jpg">
+                                Sailor
+                            </label>
+                        </p>
+                    </fieldset>
+                <button>Start Adventure Quest</button>
+            </form>
+
+    </main>
+
+    <script type="module" src="./home/home.js"></script>
+</body>
+
+</html>

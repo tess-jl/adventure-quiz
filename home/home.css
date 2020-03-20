@@ -1,0 +1,52 @@
+.avatar-pic {
+    height: 100px; 
+}
+
+[type=radio] {
+    display: none;
+}
+
+html, body {
+    margin: 0; 
+    padding: 0; 
+    color: rgb(38, 58, 58); 
+    background-color: rgb(222, 224, 210);
+}
+.text-prompt {
+    display: block;
+    margin: 10px 0;
+}
+
+.text-prompt label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.text-prompt input {
+    display: block;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+#avatars {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#avatars label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 10px;
+}
+
+.avatar-pic {
+    border: 3px solid transparent; 
+}
+
+.avatar-pic:hover {
+    border: 3px solid green; 
+}
+
